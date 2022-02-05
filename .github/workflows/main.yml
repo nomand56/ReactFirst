@@ -21,5 +21,5 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run : surge ./reactfirst positronFirstreactapp.surge.sh --token ${{secrets.FIRST_REACT}}
+        run : surge ./reactfirst/ positronFirstreactapp.surge.sh --token ${{secrets.FIRST_REACT}}
     
